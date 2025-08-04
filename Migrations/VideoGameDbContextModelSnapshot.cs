@@ -44,6 +44,32 @@ namespace VideoGameApi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("VideoGames");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Developer = "EA Sports",
+                            Platform = "Xbox 360",
+                            Publisher = "Sony Interactive Entertainment",
+                            Title = "FC25"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Developer = "Activision",
+                            Platform = "PS5",
+                            Publisher = "Playstation",
+                            Title = "Call of Duty"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Developer = "CD Projekt Red",
+                            Platform = "PC",
+                            Publisher = "CD Projekt",
+                            Title = "Cyberpunk 2077"
+                        });
                 });
 #pragma warning restore 612, 618
         }

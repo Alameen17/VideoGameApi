@@ -123,7 +123,7 @@ Content-Type: application/json
     "platform": "PS5",
     "developer": "Activision",
     "publisher": "Playstation"
-  },
+  }
 ```
 
 #### Delete a Video Game
